@@ -1,0 +1,19 @@
+
+#Core Web Framework
+Django>=5.2,<5.3                 # The main web framework providing the database ORM, routing, and project structure.
+
+# API Development & Security
+djangorestframework              # Toolkit for building powerful, browsable Web APIs on top of Django.
+django-cors-headers              # Allows your backend to accept API requests from a different frontend domain (e.g., React/Next.js).
+djangorestframework-simplejwt    # Handles secure user authentication using JSON Web Tokens (JWT).
+
+# Database & Media Tools
+psycopg[binary]                  # Database driver required for Django to connect and communicate with a PostgreSQL database.
+pillow                           # Image processing library required if you plan to handle file/image uploads (like team logos or user avatars).
+
+# Filtering & Documentation
+django-filter                    # Allows API clients to easily filter, search, and sort database queries via URL parameters.
+drf-spectacular                  # Automatically generates OpenAPI 3.0 schema documentation (Swagger/Redoc) for your endpoints.
+
+# Environment Configuration
+python-dotenv
