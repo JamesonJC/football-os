@@ -1,15 +1,18 @@
-# Python
+# Python (Local Development)
 
 __pycache__/
 *.py[cod]
+.venv/
 venv/
-.evn
 .pytest_cache/
 
 # Django
 db.sqlite3
 media/
 staticfiles/
+*.dump
+*.sql
+backups/
 
 # Flutter
 .dart_tool/
@@ -25,9 +28,19 @@ build
 *.iml
 
 #Environment
+.env
 .env.*
 !.en.example
 
 # Operrating system
 .DS_Store
 Thumbs.db
+
+# Secrets
+secrets/
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
